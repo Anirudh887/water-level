@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html{
+  height:100%;
+}
+
+body{
+  font-family: 'Pacifico', helvetica, arial, san-serif;
+background: linear-gradient(to right, #e96443, #904e95);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.water-stuff, h1{
+  text-align:center;
+}
+
+.info{
+  margin:auto;  
+}
+
+.bucket{
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.water{
+  transition: all 1s;
+  position: relative;
+  top: 100px;
+/*   left: 2px; */
+/*   width: 230px; */
+  
+  height: 90px;
+  margin: 5px;
+/*   width: 230px;
+  margin:1px 10px;
+  height: 190px; */
+  border:2px solid #000;
+  background-color: #4289d4;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.waterlevel{
+  color: white; 
+  text-align:center;
+  margin:0;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+}
+
+.btn{
+    font-family: 'Pacifico', helvetica, arial, san-serif;
+   background-color: #0f5e9c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+@media screen and (min-width: 600px) {
+  .water-stuff {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
